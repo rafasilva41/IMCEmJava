@@ -1,2 +1,2 @@
 # IMCEmJava
-Pessoa e atleta medidos em Java, vamos tentar ou estaremos fritos!!!!!!!!!!!!!
+Pessoa e atleta medidos em Java, vamos programar direito!!!!!!
