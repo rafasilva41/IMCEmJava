@@ -2,11 +2,6 @@ import java.sql.SQLOutput;
 
 public class Pessoa {
     private String nome;
-    double imc = peso / (altura * altura);
-
-    public Pessoa(Atleta atleta) {
-        this.atleta = atleta;
-    }
 
     System.out.print("Digite seu nome: ");
     private String nome = scanner.nextString();
@@ -16,6 +11,8 @@ public class Pessoa {
 
     System.out.print("Digite a sua altura em metros: ");
     private double altura = scanner.nextDouble();
+
+    double imc = peso / (altura * altura);
 
     System.out.printf("Resultado do IMC: \n" + imc);
 
@@ -34,4 +31,29 @@ public class Pessoa {
     }
 
     scanner.close();
-  }
+
+    public String getNome() {
+    return.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Double getPeso() {
+        return.peso;
+    }
+
+    public void setPeso(Double peso) {
+        this.peso = peso;
+    }
+
+    public Double getAltura() {
+        return.altura;
+    }
+
+    public void setAltura(String altura) {
+        this.altura = altura;
+    }
+}
+
