@@ -16,8 +16,9 @@ public class Atleta extends Pessoa{
     }
 
     @Override
-    public double IMC() {
-        double imcNormal = super.IMC();
+    public double calcularIMC() {
+        double imcNormal = super.calcularIMC();
         return Math.round((imcNormal * 0.95) * 100) / 100;
     }
 }
+
