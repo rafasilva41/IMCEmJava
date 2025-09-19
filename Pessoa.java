@@ -33,10 +33,11 @@ public class Pessoa {
             this.altura = altura;
     }
 
-    public double IMC() {
+    public double calcularIMC() {
         double imc = peso / (altura * altura);
         return Math.round(imc * 100) / 100;
     }
 }
+
 
 
